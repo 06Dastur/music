@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MP3 Player</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <audio src="" id="audio-source"></audio>
+
+    <!-- home section -->
+    <section class="home-section">
+        <div class="carusel">
+            <img src="img/slider.jpg" class="active" alt="">
+            <img src="img/product (2).jpg" alt="">
+            <img src="img/slider2.jpg" alt="">
+            <img src="img/slider3.jpg" alt="">
+            <img src="img/product (5).jpg" alt="">
+            <img src="img/product (6).jpg" alt="">
+        </div>
+
+        <!-- playlist -->
+        <h1 class="heading">Top playlestlar</h1>
+        <div class="playlists-group">
+            <div class="playlist-card">
+                <img src="img/persone.jpg" class="playlist-card-img"  alt="">
+                <p class="playlist-card-name">top jahon</p>
+            </div>
+            <div class="playlist-card">
+                <img src="img/product (1).jpg" class="playlist-card-img"  alt="">
+                <p class="playlist-card-name">Trend muz</p>
+            </div>
+            <div class="playlist-card">
+                <img src="img/product (4).jpg" class="playlist-card-img"  alt="">
+                <p class="playlist-card-name">tik tok</p>
+            </div>
+            <div class="playlist-card">
+                <img src="img/bass.jpg" class="playlist-card-img"  alt="">
+                <p class="playlist-card-name">bass</p>
+            </div>
+        </div>
+        <h1 class="heading">Mashurlar</h1>
+        <div class="playlists-group">
+            <div class="playlist-card">
+                <img src="img/ozbek.jpg" class="playlist-card-img"  alt="">
+                <p class="playlist-card-name">ozbek artist</p>
+            </div>
+            <div class="playlist-card">
+                <img src="img/trend-muzz.jpg" class="playlist-card-img"  alt="">
+                <p class="playlist-card-name">Trend muz</p>
+            </div>
+            <div class="playlist-card">
+                <img src="img/tik-tok.jpg" class="playlist-card-img"  alt="">
+                <p class="playlist-card-name">tik tok</p>
+            </div>
+            <div class="playlist-card">
+                <img src="img/bass2.jpg" class="playlist-card-img"  alt="">
+                <p class="playlist-card-name">bass</p>
+            </div>
+        </div>
+    </section>
+    <!-- music player -->
+    <section class="music-player-section ">
+
+        <img src="img/back.png" class="back-btn icon hide" alt="">
+        <img src="img/nav.png" class="nav-btn icon hide" alt="">
+
+        <h1 class="current-song-name">Chorni delfin</h1>
+        <p class="artist-name hide">Artist 1</p>
+
+        <img src="img/product (2).jpg" class="cover hide" alt="">
+
+        <div class="seek-bar-container">
+            <input type="range" class="music-seek-bar" value="0">
+            <p class="current-time hide">00 : 00</p>
+            <p class="duration hide">00 : 00</p>
+        </div>
+
+        <div class="controls">
+            <span class="fas fa-redo"></span>
+            <div class="main">
+                <i class="fas fa-backward active"></i>
+                <i class="fas fa-play active"></i>
+                <i class="fas fa-pause"></i>
+                <i class="fas fa-forward active"></i>
+            </div>
+            <input type="range" class="volume-slider" max="1" value="1" step="0.1" id="">
+            <span class="fas fa-volume-up"></span>
+        </div>
+
+    </section>
+
+    <section class="playlist ">
+
+        <img src="img/back.png" class="back-btn img1" alt="">
+       
+
+        <h1 class="title">Playlist</h1>
+
+        <div class="queue active">
+            <div class="queue-cover">
+                <img src="img/product (1).jpg" alt="">
+                <i class="fas fa-pause"></i>
+            </div>
+            <p class="name">Chorni delfin</p>
+        </div>
+        <div class="queue">
+            <div class="queue-cover">
+                <img src="img/product (2).jpg" alt="">
+                <i class="fas fa-pause"></i>
+            </div>
+            <p class="name">chorni masti</p>
+        </div>
+        <div class="queue">
+            <div class="queue-cover">
+                <img src="img/product (3).jpg" alt="">
+                <i class="fas fa-pause"></i>
+            </div>
+            <p class="name">cloud</p>
+        </div>
+        <div class="queue">
+            <div class="queue-cover">
+                <img src="img/product (4).jpg" alt="">
+                <i class="fas fa-pause"></i>
+            </div>
+            <p class="name">davaye</p>
+        </div>
+        <div class="queue">
+            <div class="queue-cover">
+                <img src="img/product (5).jpg" alt="">
+                <i class="fas fa-pause"></i>
+            </div>
+            <p class="name">detka lambada</p>
+        </div>
+        <div class="queue">
+            <div class="queue-cover">
+                <img src="img/product (6).jpg" alt="">
+                <i class="fas fa-pause"></i>
+            </div>
+            <p class="name">karman</p>
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
