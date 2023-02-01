@@ -343,9 +343,11 @@ body{
     font-size: 22px;
     text-transform: capitalize;
 }
-
-
-
+.queue a{
+    font-size: 25px;
+    color: blue;
+    margin: 0 auto;
+}
 
 
 
