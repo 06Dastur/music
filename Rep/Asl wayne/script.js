@@ -1,5 +1,11 @@
 let songs = [
     {
+        name: "BUGUN TOYING",
+        path:"mp3/BUGUN TOYING.mp3",
+        artist: 'Asl Wayne',
+        cover: 'img/profile.jpg'
+    },
+    {
         name: 'Oq qora',
         path:'mp3/Oq qora.mp3',
         artist: 'Asl Wayne',
@@ -17,12 +23,7 @@ let songs = [
         artist: 'Asl Wayne',
         cover: 'img/profile.jpg'
     },
-    {
-        name: "BUGUN TOYING",
-        path:"mp3/BUGUN TOYING.mp3",
-        artist: 'Asl Wayne',
-        cover: 'img/profile.jpg'
-    },
+
     {
         name: "GANIMAT",
         path:"mp3/GANIMAT.mp3",
