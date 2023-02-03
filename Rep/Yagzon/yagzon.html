@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yagzon</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+
+    <div class="back-menu">
+        <a href="../../index.html">
+            <img src="../../img/back.png" alt="">
+        </a>
+    </div>
+    
+    <audio src="" id="audio-source"></audio>
+    <!-- home section -->
+    <section class="home-section">
+        <div class="carusel">
+            <img src="../../img/slider.jpg" class="active" alt="">
+            <img src="../../img/music1.jpg" alt="">
+            <img src="../../img/slider2.jpg" alt="">
+            <img src="../../img/slider3.jpg" alt="">
+            <img src="../../img/music2.jpg" alt="">
+            <img src="../../img/samuray.jpg" alt="">
+        </div>
+
+        <!-- playlist -->
+        <h1 class="heading">Eng so'ngilari</h1>
+        <div class="playlists-group">
+            <div class="playlist-card">
+                <img src="../../img/music1.jpg" class="playlist-card-img"  alt="">
+                <p class="playlist-card-name">Esla meni</p>
+            </div>
+            <div class="playlist-card">
+                <img src="../../img/music1.jpg" class="playlist-card-img"  alt="">
+                <p class="playlist-card-name">5 daqiqa</p>
+            </div>
+            <div class="playlist-card">
+                <img src="../../img/music1.jpg" class="playlist-card-img"  alt="">
+                <p class="playlist-card-name">Musofir</p>
+            </div>
+            <div class="playlist-card">
+                <img src="../../img/music1.jpg" class="playlist-card-img"  alt="">
+                <p class="playlist-card-name">Alo</p>
+            </div>
+        </div>
+        <h1 class="heading">Trendlar</h1>
+        <div class="playlists-group">
+            <div class="playlist-card">
+                <img src="../../img/music1.jpg" class="playlist-card-img"  alt="">
+                <p class="playlist-card-name">Sogindim Manam</p>
+            </div>
+            <div class="playlist-card">
+                <img src="../../img/music1.jpg" class="playlist-card-img"  alt="">
+                <p class="playlist-card-name">bu_kecha kechir</p>
+            </div>
+            <div class="playlist-card">
+                <img src="../../img/music1.jpg" class="playlist-card-img"  alt="">
+                <p class="playlist-card-name">Kelmaysanmi korgani</p>
+            </div>
+            <div class="playlist-card">
+                <img src="../../img/music1.jpg" class="playlist-card-img"  alt="">
+                <p class="playlist-card-name">Aldadi U</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="music-player-section ">
+
+        <img src="../../img/back.png" class="back-btn icon hide" alt="">
+        <img src="../../img/nav.png" class="nav-btn icon hide" alt="">
+
+        <h1 class="current-song-name">Korinma</h1>
+        <p class="artist-name hide">Yagzon</p>
+
+        <img src="../../img/music1.jpg" class="cover hide" alt="">
+
+        <div class="seek-bar-container">
+            <input type="range" class="music-seek-bar" value="0">
+            <p class="current-time hide">00 : 00</p>
+            <p class="duration hide">00 : 00</p>
+        </div>
+
+        <div class="controls">
+            <span class="fas fa-redo"></span>
+            <div class="main">
+                <i class="fas fa-backward active"></i>
+                <i class="fas fa-play active"></i>
+                <i class="fas fa-pause"></i>
+                <i class="fas fa-forward active"></i>
+            </div>
+            <input type="range" class="volume-slider" max="1" value="1" step="0.1" id="">
+            <span class="fas fa-volume-up"></span>
+        </div>
+
+    </section>
+
+    <section class="playlist ">
+
+        <img src="../../img/back.png" class="back-btn img1" alt="">
+       
+
+        <h1 class="title">Musiqani Yuklash</h1>
+
+        <div class="queue active">
+            <div class="queue-cover">
+                <img src="../../img/music2.jpg" alt="">
+                <i class="fas fa-pause"></i>
+            </div>
+            <p class="name">Korinma </p>
+            <a href="mp3/Korinma.mp3" download><i class="fas fa-download"></i></a>
+        </div>
+        <div class="queue">
+            <div class="queue-cover">
+                <img src="../../img/music2.jpg" alt="">
+                <i class="fas fa-pause"></i>
+            </div>
+            <p class="name">Yolgonlaring</p>
+            <a href="mp3/Yolgonlaring.mp3" download><i class="fas fa-download"></i></a>
+        </div>
+        <div class="queue">
+            <div class="queue-cover">
+                <img src="../../img/music2.jpg" alt="">
+                <i class="fas fa-pause"></i>
+            </div>
+            <p class="name">Yonida kimdur bor</p>
+            <a href="mp3/Yonida kimdur.mp3" download><i class="fas fa-download"></i></a>
+        </div>
+        <div class="queue">
+            <div class="queue-cover">
+                <img src="../../img/music2.jpg" alt="">
+                <i class="fas fa-pause"></i>
+            </div>
+            <p class="name">Yuragim muhabbatning</p>
+            <a href="mp3/Yuragim azobda.mp3" download><i class="fas fa-download"></i></a>
+        </div>
+        <div class="queue">
+            <div class="queue-cover">
+                <img src="../../img/music2.jpg" alt="">
+                <i class="fas fa-pause"></i>
+            </div>
+            <p class="name">Yuragim jim</p>
+            <a href="mp3/Yuragim jim.mp3" download><i class="fas fa-download"></i></a>
+        </div>
+        
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+    <script src="../../app.js"></script>
+</body>
+</html>

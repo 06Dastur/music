@@ -28,8 +28,24 @@ body{
     color: var(--text-color);
 }
 ::-webkit-scrollbar{
-    display: none;
+    overflow-y: auto;
 }
+@media only screen and (max-width: 600px){
+    ::-webkit-scrollbar{
+        display: none;
+    }   
+}
+
+/* page in back img */
+.back-menu img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    left: 10px;
+    margin: 10px 10px;
+}
+/* page in back img */
+
 
 /* home section */
 .home-section{
@@ -78,6 +94,12 @@ body{
     
 }
 .playlist-card{
+    flex: 0 0 auto;
+    max-width: 150px;
+    height: 100%;
+    margin-right: 20px;
+}
+.playlist-card-click{
     flex: 0 0 auto;
     max-width: 150px;
     height: 100%;
@@ -252,8 +274,8 @@ body{
     width: 180px;
     height: 40px;
     position: absolute;
-    right: -35px;
-    bottom: 80px;
+    right: -70px;
+    bottom: 115px;
     transform: rotate(-90deg);
     border-radius: 20px;
     background: var(--alpha-color);
@@ -303,6 +325,7 @@ body{
     margin-top: -45px;
     text-transform: capitalize;
     top: 0;
+    margin-left: 50px;
 }
 .queue{
     width: 100%;

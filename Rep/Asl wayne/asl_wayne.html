@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Asl Wayne</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+
+    <div class="back-menu">
+        <a href="../../index.html">
+            <img src="../../img/back.png" alt="">
+        </a>
+    </div>
+    
+    <audio src="" id="audio-source"></audio>
+    <!-- home section -->
+    <section class="home-section">
+        <div class="carusel">
+            <img src="img/img1.jpg" class="active" alt="">
+            <img src="img/img2.jpg" alt="">
+            <img src="img/img3.jpg" alt="">
+            <img src="img/img4.jpg" alt="">
+            <img src="img/img5.jpg" alt="">
+        </div>
+
+        <!-- playlist -->
+        <h1 class="heading">Eng so'ngilari</h1>
+        <div class="playlists-group">
+            <div class="playlist-card">
+                <img src="../../img/music2.jpg" class="playlist-card-img"  alt="">
+                <p class="playlist-card-name">Bugun Toying</p>
+            </div>
+            <div class="playlist-card">
+                <img src="../../img/music2.jpg" class="playlist-card-img"  alt="">
+                <p class="playlist-card-name">Yolvora</p>
+            </div>
+            <div class="playlist-card">
+                <img src="../../img/music2.jpg" class="playlist-card-img"  alt="">
+                <p class="playlist-card-name">Telba</p>
+            </div>
+            <div class="playlist-card">
+                <img src="../../img/music2.jpg" class="playlist-card-img"  alt="">
+                <p class="playlist-card-name">O`yin</p>
+            </div>
+        </div>
+        <h1 class="heading">Trendlar</h1>
+        <div class="playlists-group">
+            <div class="playlist-card">
+                <img src="../../img/music2.jpg" class="playlist-card-img"  alt="">
+                <p class="playlist-card-name">Bugun toying</p>
+            </div>
+            <div class="playlist-card">
+                <img src="../../img/music2.jpg" class="playlist-card-img"  alt="">
+                <p class="playlist-card-name">Yor Yonaman</p>
+            </div>
+            <div class="playlist-card">
+                <img src="../../img/music2.jpg" class="playlist-card-img"  alt="">
+                <p class="playlist-card-name">Atirgul</p>
+            </div>
+            <div class="playlist-card">
+                <img src="../../img/music2.jpg" class="playlist-card-img"  alt="">
+                <p class="playlist-card-name">Xayotsan</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="music-player-section ">
+
+        <img src="../../img/back.png" class="back-btn icon hide" alt="">
+        <img src="../../img/nav.png" class="nav-btn icon hide" alt="">
+
+        <h1 class="current-song-name">Korinma</h1>
+        <p class="artist-name hide">Yagzon</p>
+
+        <img src="../../img/music1.jpg" class="cover hide" alt="">
+
+        <div class="seek-bar-container">
+            <input type="range" class="music-seek-bar" value="0">
+            <p class="current-time hide">00 : 00</p>
+            <p class="duration hide">00 : 00</p>
+        </div>
+
+        <div class="controls">
+            <span class="fas fa-redo"></span>
+            <div class="main">
+                <i class="fas fa-backward active"></i>
+                <i class="fas fa-play active"></i>
+                <i class="fas fa-pause"></i>
+                <i class="fas fa-forward active"></i>
+            </div>
+            <input type="range" class="volume-slider" max="1" value="1" step="0.1" id="">
+            <span class="fas fa-volume-up"></span>
+        </div>
+
+    </section>
+
+    <section class="playlist ">
+
+        <img src="../../img/back.png" class="back-btn img1" alt="">
+       
+
+        <h1 class="title">Musiqa</h1>
+
+        <div class="queue active">
+            <div class="queue-cover">
+                <img src="../../img/music2.jpg" alt="">
+                <i class="fas fa-pause"></i>
+            </div>
+            <p class="name">Oq qora</p>
+            <a href="mp3/Oq qora.mp3" download><i class="fas fa-download"></i></a>
+        </div>
+        <div class="queue">
+            <div class="queue-cover">
+                <img src="../../img/music2.jpg" alt="">
+                <i class="fas fa-pause"></i>
+            </div>
+            <p class="name">xayotsan</p>
+            <a href="mp3/xayotsan.mp3" download><i class="fas fa-download"></i></a>
+        </div>
+        <div class="queue">
+            <div class="queue-cover">
+                <img src="../../img/music2.jpg" alt="">
+                <i class="fas fa-pause"></i>
+            </div>
+            <p class="name">YOMG'IR</p>
+            <a href="mp3/YOMG'IR.mp3" download><i class="fas fa-download"></i></a>
+        </div>
+        <div class="queue">
+            <div class="queue-cover">
+                <img src="../../img/music2.jpg" alt="">
+                <i class="fas fa-pause"></i>
+            </div>
+            <p class="name">BUGUN TOYING</p>
+            <a href="mp3/BUGUN TOYING.mp3" download><i class="fas fa-download"></i></a>
+        </div>
+        <div class="queue">
+            <div class="queue-cover">
+                <img src="../../img/music2.jpg" alt="">
+                <i class="fas fa-pause"></i>
+            </div>
+            <p class="name">GANIMAT</p>
+            <a href="mp3/YOMG'IR.mp3" download><i class="fas fa-download"></i></a>
+        </div>
+        <div class="queue">
+            <div class="queue-cover">
+                <img src="../../img/music2.jpg" alt="">
+                <i class="fas fa-pause"></i>
+            </div>
+            <p class="name">Get</p>
+            <a href="mp3/Get.mp3" download><i class="fas fa-download"></i></a>
+        </div>
+        <div class="queue">
+            <div class="queue-cover">
+                <img src="../../img/music2.jpg" alt="">
+                <i class="fas fa-pause"></i>
+            </div>
+            <p class="name">Go'zlarinnan Oqmas Yoshlo</p>
+            <a href="mp3/Go'zlarinnan Oqmas Yoshlo.mp3" download><i class="fas fa-download"></i></a>
+        </div>
+        <div class="queue">
+            <div class="queue-cover">
+                <img src="../../img/music2.jpg" alt="">
+                <i class="fas fa-pause"></i>
+            </div>
+            <p class="name">ISTADING MANI</p>
+            <a href="mp3/ISTADING MANI.mp3" download><i class="fas fa-download"></i></a>
+        </div>
+        <div class="queue">
+            <div class="queue-cover">
+                <img src="../../img/music2.jpg" alt="">
+                <i class="fas fa-pause"></i>
+            </div>
+            <p class="name">MANGA TINCHLIK GARAK</p>
+            <a href="mp3/MANGA TINCHLIK GARAK.mp3" download><i class="fas fa-download"></i></a>
+        </div>
+        <div class="queue">
+            <div class="queue-cover">
+                <img src="../../img/music2.jpg" alt="">
+                <i class="fas fa-pause"></i>
+            </div>
+            <p class="name">MEMON</p>
+            <a href="mp3/MEMON.mp3" download><i class="fas fa-download"></i></a>
+        </div>
+        <div class="queue">
+            <div class="queue-cover">
+                <img src="../../img/music2.jpg" alt="">
+                <i class="fas fa-pause"></i>
+            </div>
+            <p class="name">O`YIN</p>
+            <a href="mp3/OYIN.mp3" download><i class="fas fa-download"></i></a>
+        </div>
+        <div class="queue">
+            <div class="queue-cover">
+                <img src="../../img/music2.jpg" alt="">
+                <i class="fas fa-pause"></i>
+            </div>
+            <p class="name">SORAMA</p>
+            <a href="mp3/SORAMA.mp3" download><i class="fas fa-download"></i></a>
+        </div>
+        <div class="queue">
+            <div class="queue-cover">
+                <img src="../../img/music2.jpg" alt="">
+                <i class="fas fa-pause"></i>
+            </div>
+            <p class="name">Telba</p>
+            <a href="mp3/Telba.mp3" download><i class="fas fa-download"></i></a>
+        </div>
+        <div class="queue">
+            <div class="queue-cover">
+                <img src="../../img/music2.jpg" alt="">
+                <i class="fas fa-pause"></i>
+            </div>
+            <p class="name">UZINGNI QO'YIB GO'R</p>
+            <a href="mp3/UZINGNI QO'YIB GO'R.mp3" download><i class="fas fa-download"></i></a>
+        </div>
+        <div class="queue">
+            <div class="queue-cover">
+                <img src="../../img/music2.jpg" alt="">
+                <i class="fas fa-pause"></i>
+            </div>
+            <p class="name">YOLVORA</p>
+            <a href="mp3/YOLVORA.mp3" download><i class="fas fa-download"></i></a>
+        </div>
+        
+        
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+    <script src="../../app.js"></script>
+</body>
+</html>

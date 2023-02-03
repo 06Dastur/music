@@ -207,3 +207,10 @@ queue.forEach((item, i) => {
         playBtn.click();
     })
 })
+
+
+let playlist_click = document.querySelector('.playlist-card .click');   
+
+playlist_click.addEventListener('click', () =>{
+    playListSection.classList.add('active');
+})
