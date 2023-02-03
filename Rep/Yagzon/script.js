@@ -18,7 +18,7 @@ let songs = [
         cover: '../../img/music2.jpg'
     },
     {
-        name: 'Yuragim azobda',
+        name: 'Yuragim',
         path:'mp3/Yuragim azoblandi.mp3',
         artist: 'Yagzon',
         cover: '../../img/music2.jpg'

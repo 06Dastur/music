@@ -214,3 +214,12 @@ let playlist_click = document.querySelector('.playlist-card .click');
 playlist_click.addEventListener('click', () =>{
     playListSection.classList.add('active');
 })
+
+let bos = document.querySelector('.bos');
+
+
+bos.addEventListener('click', () => {
+    if(clickCount == 1){
+        musicPlayerSection.classList.add('active');
+    }
+})
