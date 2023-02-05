@@ -1,7 +1,31 @@
 let songs = [
     {
-        name: "BUGUN TOYING",
+        name: "BUGUN & TOYING",
         path:"mp3/BUGUN TOYING.mp3",
+        artist: 'Asl Wayne',
+        cover: 'img/profile.jpg'
+    },
+    {
+        name: "Atirgul",
+        path:"mp3/Atirgul.mp3",
+        artist: 'Asl Wayne',
+        cover: 'img/profile.jpg'
+    },
+    {
+        name: "Guldasta",
+        path:"mp3/Guldasta.mp3",
+        artist: 'Asl Wayne',
+        cover: 'img/profile.jpg'
+    },
+    {
+        name: "Inon",
+        path:"mp3/Inon.mp3",
+        artist: 'Asl Wayne',
+        cover: 'img/profile.jpg'
+    },
+    {
+        name: "Gozlaring",
+        path:"mp3/Gozlaring.mp3",
         artist: 'Asl Wayne',
         cover: 'img/profile.jpg'
     },
@@ -43,7 +67,7 @@ let songs = [
         cover: 'img/profile.jpg'
     },
     {
-        name: "ISTADING MANI",
+        name: "ISTADING & MANI",
         path:"mp3/ISTADING MANI.mp3",
         artist: 'Asl Wayne',
         cover: 'img/profile.jpg'
@@ -79,7 +103,7 @@ let songs = [
         cover: 'img/profile.jpg'
     },
     {
-        name: "UZINGNI QO'YIB GO'R",
+        name: "UZINGNI & QO'YIB GO'R",
         path:"mp3/UZINGNI QO'YIB GO'R.mp3",
         artist: 'Asl Wayne',
         cover: 'img/profile.jpg'

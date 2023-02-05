@@ -1,5 +1,23 @@
 let songs = [
     {
+        name: 'jasil koylek',
+        path:'mp3/jasil koylek.mp3',
+        artist: 'Spakonni bola',
+        cover: 'img/product (2).jpg'
+    },
+    {
+        name: 'Nazan Nazan',
+        path:'mp3/Nazan Nazan.mp3',
+        artist: 'Spakonni bola',
+        cover: 'img/product (5).jpg'
+    },
+    {
+        name: 'Добрый Я',
+        path:'mp3/Добрый Я.mp3',
+        artist: 'Spakonni bola',
+        cover: 'img/product (2).jpg'
+    },
+    {
         name: 'chorni delfin',
         path:'mp3/chorni delfin.mp3',
         artist: 'Spakonni bola',
@@ -9,7 +27,7 @@ let songs = [
         name: 'chorni masti',
         path:'mp3/chorni masti.mp3',
         artist: 'Spakonni bola',
-        cover: 'img/product (2).jpg'
+        cover: 'img/product (1).jpg'
     },
     {
         name: 'cloud',
@@ -18,13 +36,19 @@ let songs = [
         cover: 'img/product (3).jpg'
     },
     {
+        name: 'lovely',
+        path:'mp3/lovely.mp3',
+        artist: 'Spakonni bola',
+        cover: 'img/profile.jpg'
+    },
+    {
         name: 'davaye',
         path:'mp3/davaye.mp3',
         artist: 'Spakonni bola',
         cover: 'img/product (4).jpg'
     },
     {
-        name: 'detka lambada',
+        name: 'detka && lambada',
         path:'mp3/detka lambada.mp3',
         artist: 'Spakonni bola',
         cover: 'img/product (5).jpg'
@@ -33,7 +57,7 @@ let songs = [
         name: 'diki ay',
         path:'mp3/diki ay.mp3',
         artist: 'Spakonni bola',
-        cover: 'img/product (6).jpg'
+        cover: 'img/profile.jpg'
     },
     {
         name: 'docha',
@@ -64,6 +88,12 @@ let songs = [
         path:'mp3/kuragan gul.mp3',
         artist: 'Spakonni bola',
         cover: 'img/slider2.jpg'
+    },
+    {
+        name: 'kuragan gul2',
+        path:'mp3/kuragan gul2.mp3',
+        artist: 'Spakonni bola',
+        cover: 'img/slider3.jpg'
     },
     {
         name: 'litet patrul',
