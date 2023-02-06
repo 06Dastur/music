@@ -29,5 +29,17 @@ let songs = [
         artist: 'Yagzon',
         cover: 'img/profile.jpg'
     },
+    {
+        name: 'Salom Jonim',
+        path:'mp3/Salom Jonim.mp3',
+        artist: 'Yagzon',
+        cover: 'img/profile.jpg'
+    },
+    {
+        name: 'sharob',
+        path:'mp3/sharob.mp3',
+        artist: 'Yagzon',
+        cover: 'img/profile.jpg'
+    },
 
 ]
